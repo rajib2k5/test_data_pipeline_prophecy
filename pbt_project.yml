@@ -1,6 +1,6 @@
 name: test_data_pipeline_prophecy
 description: poc
-version: 0.0.1
+version: '0.01'
 author: rajib.bahar@gmail.com
 language: python
 buildSystem: ''
