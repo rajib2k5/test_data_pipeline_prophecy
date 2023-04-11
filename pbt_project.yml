@@ -1,0 +1,69 @@
+name: test_data_pipeline_prophecy
+description: poc
+version: 0.0.1
+author: rajib.bahar@gmail.com
+language: python
+buildSystem: ''
+buildSystemDetails:
+  artefactID: test_data_pipeline_prophecy
+  parentArtefactID: rajib.bahargmail.com_team
+  buildSystem: wheel
+  author: null
+  createdAt: '2023-04-10 23:39:52'
+  modifiedAt: '2023-04-10 23:39:52'
+pipelines:
+  pipelines/test_pipeline:
+    name: test_pipeline
+    description: first test pipeline
+    author: rajib.bahar@gmail.com
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2023-04-10 23:39:52'
+    modifiedAt: '2023-04-10 23:39:56'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs:
+  jobs/test_job_1:
+    name: test_job_1
+    description: very first job
+    fabricUID: 1881
+    scheduler:
+      Databricks: {}
+    cloudProvider: null
+    jobSize: Small
+    scheduleCron: 0 0 0 1/1 * ? *
+    timeout: null
+    alerting:
+      emails: rajib.bahar@gmail.com
+      onStart: false
+      onSuccess: false
+      onFailure: true
+    pipelines: []
+    jobClusterMode:
+      clusterMode:
+        Single: {}
+      clusterId: null
+    enabled: null
+    createdAt: '2023-04-10 23:40:53'
+    modifiedAt: '2023-04-10 23:40:56'
+    author: rajib.bahar@gmail.com
+functions:
+  author: null
+  createdAt: '2023-04-10 23:39:52'
+  modifiedAt: '2023-04-10 23:39:52'
+  gems: {}
+  udfs: {}
+  udafs: {}
+  expressions: {}
+subgraphs: {}
+sqlModels: {}
+sqlPipeline: null
+dependencies: '[]'
+projectDependencies: {}
+pipelineConfigurations: {}
